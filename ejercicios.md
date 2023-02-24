@@ -21,7 +21,7 @@
 
     FinAlgoritmo
     
- ### código de promedios por grupos (condicionales)
+ ### código de promedios por grupos-CONDICIONALES (sin switch)
  
 
     Algoritmo promedios
