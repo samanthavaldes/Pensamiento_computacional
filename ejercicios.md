@@ -1,4 +1,4 @@
-# ejerciocio de interés compuesto
+# ejercicio de interés compuesto
 
 ![image](https://user-images.githubusercontent.com/126004528/220738073-1b1a3786-384d-4e29-949d-278899ed95e8.png)
 
