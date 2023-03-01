@@ -112,24 +112,27 @@ FinAlgoritmo
 # Ciclo FOR
  ### Promedio de varios alumnos, FOR ANIDADO
   
-        Algoritmo sin_titulo
-            definir nombre Como Caracter
-            definir veces, num Como Entero
-            definir cal, prom, sum Como Real
-            escribir "¿Cuántos alumnos serán?"
-            leer num
-            Para j<-1  Hasta num Con Paso 1 Hacer
-                escribir "Ingresa nombre del alumno ", num
-                leer nombre
-                escribir "¿Cuántas calificaciones tiene ", nombre, "?"
-                leer veces
-                Para i<-1 Hasta veces Con Paso 1 Hacer
-                    escribir "¿Cuál fue su calificación ", i, "?"
-                    leer cal 
-                    sum=sum+cal
-                Fin Para
-                prom<- suma/veces
-                escribir "El promedio de ", nombre, " es ", prom
-            Fin Para
-        FinAlgoritmo
+     	definir nombre Como Caracter
+	definir veces, num Como Entero
+	definir cal, prom, sum Como Real
+	escribir "¿Cuántos alumnos serán?"
+	leer num
+	Para j<-1  Hasta num Con Paso 1 Hacer
+		escribir "Ingresa nombre del alumno ", j
+		leer nombre
+		escribir "¿Cuántas calificaciones tiene ", nombre, "?"
+		leer veces
+		Para i<-1 Hasta veces Con Paso 1 Hacer
+			escribir "¿Cuál fue su calificación ", i, "?"
+			leer cal 
+			sum=sum+cal
+		Fin Para
+		prom<- sum/veces
+		escribir "El promedio de ", nombre, " es ", prom
+		sum<-0
+		prom<-0
+	Fin Para
+	
+	
+    FinAlgoritmo
 
