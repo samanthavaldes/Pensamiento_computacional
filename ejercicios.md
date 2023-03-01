@@ -109,8 +109,8 @@
 FinAlgoritmo
 
 
-### Ciclo FOR
-  # Promedio de varios alumnos, FOR ANIDADO
+# Ciclo FOR
+ ### Promedio de varios alumnos, FOR ANIDADO
   
         Algoritmo sin_titulo
             definir nombre Como Caracter
