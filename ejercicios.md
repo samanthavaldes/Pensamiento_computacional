@@ -136,3 +136,20 @@ FinAlgoritmo
 	
     FinAlgoritmo
 
+#FUNCIONES
+
+		Funcion fahr <- CelsiusAFar (cel)
+			fahr <- 1.8*cel+32
+		Fin Funcion
+
+	Algoritmo sin_titulo
+		definir fahr, cel como real
+		escribir "Bienvenido al programa que convierte grados Celsius a Fahrenheit"
+		escribir "¿cuántos grados centígrados quieres convertir a grados celsius?"
+		leer cel
+		escribir cel, " grados Celsius equivalen a " CelsiusAFar(cel), " grados Fahrenheit"
+
+
+	FinAlgoritmo
+	
+	
