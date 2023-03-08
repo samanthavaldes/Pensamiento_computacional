@@ -137,6 +137,17 @@ FinAlgoritmo
     FinAlgoritmo
 
 #FUNCIONES
+
+###función longitud de nombre y mayús
+
+	Algoritmo sin_titulo
+		definir nombre Como caracter
+		escribir "ingresa tu nombre"
+		leer nombre
+		escribir "tu nombre ", Mayusculas(nombre), " tiene ", Longitud(nombre), " letras."
+	FinAlgoritmo
+
+
 ###función para grados celsius
 
 		Funcion fahr <- CelsiusAFar (cel)
