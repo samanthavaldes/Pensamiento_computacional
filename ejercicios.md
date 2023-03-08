@@ -185,5 +185,41 @@ FinAlgoritmo
 	Algoritmo sin_titulo
 		escribir redon(AreaCirculo(10))
 	FinAlgoritmo
+#Proyecto final
 
-	
+###ejercicio 1
+
+	Algoritmo sin_titulo
+		definir cal como real
+		escribir "ingresa tu calificación"
+		leer cal
+		Si cal<=7 y cal>=1 Entonces
+			Si cal>=4 Entonces
+				escribir "aprobado"
+			SiNo
+				escribir "reprobado"
+			Fin Si
+		SiNo
+			escribir "calificación fuera de rango"
+		Fin Si
+	FinAlgoritmo
+
+###ejercicio 2
+
+	Algoritmo sin_titulo
+		definir alumno Como Entero
+		definir suma, edad, prome Como Real
+		escribir "Ingresa la cantidad de alumnos"
+		leer alumno
+		Repetir
+			escribir "ingresa la edad del alumno ", contador +1, ":"
+			leer edad
+			suma <- suma + edad
+			contador<- contador + 1
+		Hasta Que contador=alumno
+		prome<- suma/alumno
+		escribir "La edad promedio de los ", alumno, " alumnos es ", prome
+
+
+	FinAlgoritmo
+
