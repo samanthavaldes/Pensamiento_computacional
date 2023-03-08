@@ -137,6 +137,7 @@ FinAlgoritmo
     FinAlgoritmo
 
 #FUNCIONES
+###función para grados celsius
 
 		Funcion fahr <- CelsiusAFar (cel)
 			fahr <- 1.8*cel+32
@@ -152,4 +153,17 @@ FinAlgoritmo
 
 	FinAlgoritmo
 	
+###funcion para el doble
+
+	Funcion res <- Doble ( num )
+	res<- num*2
+	Fin Funcion
+
+	Algoritmo sin_titulo
+		definir x como real
+		escribir "¿De qué número quieres saber el doble?"
+		leer x
+		escribir  "El doble del número ", x, " es ", Doble(x)
+	FinAlgoritmo
+
 	
