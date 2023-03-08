@@ -165,5 +165,14 @@ FinAlgoritmo
 		leer x
 		escribir  "El doble del número ", x, " es ", Doble(x)
 	FinAlgoritmo
+###área círculo
+
+	Funcion area <- AreaCirculo ( radio )
+		area<-PI*radio^2
+	Fin Funcion
+
+	Algoritmo sin_titulo
+		escribir redon(AreaCirculo(10))
+	FinAlgoritmo
 
 	
