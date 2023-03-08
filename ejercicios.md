@@ -136,9 +136,9 @@ FinAlgoritmo
 	
     FinAlgoritmo
 
-#FUNCIONES
+# FUNCIONES
 
-###función longitud de nombre y mayús
+### función longitud de nombre y mayús
 
 	Algoritmo sin_titulo
 		definir nombre Como caracter
@@ -148,7 +148,7 @@ FinAlgoritmo
 	FinAlgoritmo
 
 
-###función para grados celsius
+### función para grados celsius
 
 		Funcion fahr <- CelsiusAFar (cel)
 			fahr <- 1.8*cel+32
@@ -164,7 +164,7 @@ FinAlgoritmo
 
 	FinAlgoritmo
 	
-###funcion para el doble
+### funcion para el doble
 
 	Funcion res <- Doble ( num )
 	res<- num*2
@@ -185,9 +185,9 @@ FinAlgoritmo
 	Algoritmo sin_titulo
 		escribir redon(AreaCirculo(10))
 	FinAlgoritmo
-#Proyecto final
+# Proyecto final
 
-###ejercicio 1
+### ejercicio 1
 
 	Algoritmo sin_titulo
 		definir cal como real
@@ -204,7 +204,7 @@ FinAlgoritmo
 		Fin Si
 	FinAlgoritmo
 
-###ejercicio 2
+### ejercicio 2
 
 	Algoritmo sin_titulo
 		definir alumno Como Entero
